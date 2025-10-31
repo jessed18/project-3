@@ -83,7 +83,7 @@ function Todos() {
                   />
                   <span>{todo.text}</span>
                 </div>
-                <button onClick={() => deleteTodo(todo.id)} className="delete-btn">
+                <button onClick={() => deleteTodo(todo.id)} className="delete-btn">  
                   ✕
                 </button>
               </div>

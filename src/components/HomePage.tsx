@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';
+import './HomePage.css';
 
 function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <h1>Welcome to TaskFlow ✨</h1>
-        <p>Your simple, colorful task manager</p>
-        <Link to="/todos" className="start-btn">Start Organizing →</Link>
+        <h1>taskinator</h1>
+        <p>manage your tasks!</p>
+        <Link to="/todos" className="start-btn">start organizing →</Link>
       </div>
 
       <div className="features">
