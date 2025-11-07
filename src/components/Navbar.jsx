@@ -11,7 +11,7 @@ function Navbar() {
       <div className="navbar-container">
         <div className="navbar-logo">
           <span className="logo-icon">✓</span>
-          <span className="logo-text">TaskFlow</span>
+          <span className="logo-text">Doable</span>
         </div>
         
       

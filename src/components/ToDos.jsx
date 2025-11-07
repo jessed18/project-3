@@ -33,7 +33,7 @@ function Todos() {
   return (
     <div className="todos-page">
       <div className="todos-container">
-        <h1>tasks</h1>
+        <h1>Tasks</h1>
         
         <div className="add-section">
           <form onSubmit={addTodo}>
@@ -71,7 +71,7 @@ function Todos() {
 
         <div className="todos-list">
           {filteredTodos.length === 0 ? (
-            <p className="empty">no tasks here!</p>
+            <p className="empty">No tasks here!</p>
           ) : (
             filteredTodos.map(todo => (
               <div key={todo.id} className={`todo ${todo.completed ? 'completed' : ''}`}>

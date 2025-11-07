@@ -6,26 +6,26 @@ function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <h1>taskinator</h1>
-        <p>manage your tasks!</p>
-        <Link to="/todos" className="start-btn">start organizing →</Link>
+        <h1>Doable</h1>
+        <p>Manage your tasks!</p>
+        <Link to="/todos" className="start-btn">Start Organizing →</Link>
       </div>
 
       <div className="features">
         <div className="feature">
-          <span className="emoji">insert checkmart icon</span>
-          <h3>track tasks</h3>
-          <p>list all your tasks.</p>
+          <span className="emoji">✓</span>
+          <h3>Track Tasks</h3>
+          <p>List what needs to be done.</p>
         </div>
         <div className="feature">
-          <span className="emoji">another icon</span>
-          <h3>focus pocus</h3>
-          <p>organize!</p>
+          <span className="emoji">𖣠</span>
+          <h3>Focus Pocus</h3>
+          <p>Get stuff done!</p>
         </div>
         <div className="feature">
-          <span className="emoji">lol</span>
-          <h3>stay productive</h3>
-          <p>you can do this</p>
+          <span className="emoji">✎</span>
+          <h3>Stay Productive</h3>
+          <p>You can do this!</p>
         </div>
       </div>
     </div>
