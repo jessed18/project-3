@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# Doable - Task Management Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview / Description
+Doable is a simple and practical web app I built to help keep track of tasks and stay organized. The idea was to create a lightweight task manager where you can add, complete, delete, and filter tasks—all in one clean interface.  
 
-Currently, two official plugins are available:
+It also includes a contact form so users can send messages directly through the app. The goal was to make task management as straightforward and visual as possible, without overcomplicating things.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## How to Use
+1. **Open the App:** Start the app with `npm start` and open it in your browser.  
+2. **Add a Task:** Type in a task in the input field and click "Add."  
+3. **Manage Tasks:**  
+   - Check the box to mark a task as done.  
+   - Click the ✕ to delete a task you no longer need.  
+4. **Filter Tasks:** Use the "All," "Active," and "Done" buttons to focus on what matters.  
+5. **Contact Form:** Navigate to the Contact page to send a quick message with your name, email, and comments.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Functionality Offered
+- **Add and Track Tasks:** Quickly jot down what you need to get done.  
+- **Complete or Delete Tasks:** Keep your list relevant and up-to-date.  
+- **Filter by Status:** Easily focus on tasks you haven’t finished yet.  
+- **Responsive Layout:** Looks good on desktop and mobile screens.  
+- **Contact Form:** A simple way for users to reach out.  
+- **No Backend Required:** Fully client-side, so you can use it without extra setup.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies Used
+- **React (JSX/TSX):** Component-based structure and dynamic updates.  
+- **React Router:** Smooth navigation between pages.  
+- **CSS:** Styling, layout, and responsive design.  
+- **JavaScript:** Handling state, adding/removing tasks, and form interactions.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Ideas for Future Improvement
+1. **Add Due Dates & Priorities:** Let users assign deadlines and importance to tasks.  
+2. **Persistent Storage:** Save tasks to localStorage or a backend so nothing is lost on refresh.  
+3. **Notifications or Reminders:** Alert users about upcoming tasks.  
+4. **Edit Existing Tasks:** Make it possible to update task titles or details.  
+5. **Dark Mode:** Give users the option to switch between light and dark themes.  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## About
+I built this project as part of a React-focused assignment to practice component-based design, state management, and creating an interactive interface. It was a fun challenge to make a clean, usable task manager without adding unnecessary complexity.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
