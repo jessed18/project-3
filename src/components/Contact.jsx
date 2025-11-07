@@ -31,18 +31,18 @@ function Contact() {
     return (
         <div className="contact-page">
             <div className="contact-container">
-                <h1>get in touch</h1>
+                <h1>Get in touch</h1>
 
                 {submitted ? (
                     <div className="success">
-                        <h2>message sent</h2>
+                        <h2>Message sent</h2>
                         <p>we'll get back to you soon.</p>
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="contact-form">
                         <div className="form-row">
                             <div className="form-field">
-                                <label>first name</label>
+                                <label>First Name</label>
                                 <input
                                     type="text"
                                     name="firstName"
@@ -52,7 +52,7 @@ function Contact() {
                                 />
                             </div>
                             <div className="form-field">
-                                <label>last name</label>
+                                <label>Last Name</label>
                                 <input
                                     type="text"
                                     name="lastName"
@@ -64,7 +64,7 @@ function Contact() {
                         </div>
 
                         <div className="form-field">
-                            <label>email</label>
+                            <label>Email</label>
                             <input
                                 type="email"
                                 name="email"
@@ -75,7 +75,7 @@ function Contact() {
                         </div>
 
                         <div className="form-field">
-                            <label>comments</label>
+                            <label>Comments</label>
                             <textarea
                                 name="comments"
                                 value={formData.comments}
