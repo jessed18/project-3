@@ -1,7 +1,7 @@
 # Doable - Task Management Web App
 
 ## Overview / Description
-Doable is a simple and practical web app I built to help keep track of tasks and stay organized. The idea was to create a lightweight task manager where you can add, complete, delete, and filter tasks—all in one clean interface.  
+Doable is a simple and practical web app I built to help keep track of tasks and stay organized. The idea was to create a lightweight task manager where you can add, complete, delete, and filter tasks - all in one clean interface.  
 
 It also includes a contact form so users can send messages directly through the app. The goal was to make task management as straightforward and visual as possible, without overcomplicating things.  
 
