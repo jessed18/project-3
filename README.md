@@ -5,7 +5,6 @@ Doable is a simple and practical web app I built to help keep track of tasks and
 
 It also includes a contact form so users can send messages directly through the app. The goal was to make task management as straightforward and visual as possible, without overcomplicating things.  
 
----
 
 ## How to Use
 1. **Open the App:** Start the app with `npm start` and open it in your browser.  
@@ -16,7 +15,7 @@ It also includes a contact form so users can send messages directly through the 
 4. **Filter Tasks:** Use the "All," "Active," and "Done" buttons to focus on what matters.  
 5. **Contact Form:** Navigate to the Contact page to send a quick message with your name, email, and comments.  
 
----
+
 
 ## Functionality Offered
 - **Add and Track Tasks:** Quickly jot down what you need to get done.  
@@ -26,7 +25,7 @@ It also includes a contact form so users can send messages directly through the 
 - **Contact Form:** A simple way for users to reach out.  
 - **No Backend Required:** Fully client-side, so you can use it without extra setup.  
 
----
+
 
 ## Technologies Used
 - **React (JSX/TSX):** Component-based structure and dynamic updates.  
@@ -34,7 +33,7 @@ It also includes a contact form so users can send messages directly through the 
 - **CSS:** Styling, layout, and responsive design.  
 - **JavaScript:** Handling state, adding/removing tasks, and form interactions.  
 
----
+
 
 ## Ideas for Future Improvement
 1. **Add Due Dates & Priorities:** Let users assign deadlines and importance to tasks.  
@@ -43,7 +42,7 @@ It also includes a contact form so users can send messages directly through the 
 4. **Edit Existing Tasks:** Make it possible to update task titles or details.  
 5. **Dark Mode:** Give users the option to switch between light and dark themes.  
 
----
+
 
 ## About
 I built this project as part of a React-focused assignment to practice component-based design, state management, and creating an interactive interface. It was a fun challenge to make a clean, usable task manager without adding unnecessary complexity.
